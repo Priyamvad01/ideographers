@@ -1,0 +1,39 @@
+:root {
+  /* Typography Variables */
+  --font-family-primary: system-ui, -apple-system, sans-serif;
+  
+  --fs-display: 3.75rem; /* 60px */
+  --fs-h1: 3rem;       /* 48px */
+  --fs-h2: 2.25rem;    /* 36px */
+  --fs-h3: 1.875rem;   /* 30px */
+  --fs-h4: 1.5rem;     /* 24px */
+  --fs-body-lg: 1.125rem; /* 18px */
+  --fs-body: 1rem;     /* 16px */
+  --fs-body-sm: 0.875rem; /* 14px */
+  --fs-caption: 0.75rem; /* 12px */
+  --fs-overline: 0.625rem; /* 10px */
+
+  --fw-bold: 700;
+  --fw-semibold: 600;
+  --fw-medium: 500;
+  --fw-normal: 400;
+
+  --lh-tight: 1.1;
+  --lh-snug: 1.375;
+  --lh-normal: 1.5;
+
+  --ls-tight: -0.02em;
+  --ls-normal: 0em;
+  --ls-wide: 0.05em;
+}
+
+.text-display { font-size: var(--fs-display); font-weight: var(--fw-bold); line-height: var(--lh-tight); letter-spacing: var(--ls-tight); }
+.text-h1 { font-size: var(--fs-h1); font-weight: var(--fw-bold); line-height: var(--lh-tight); letter-spacing: var(--ls-tight); }
+.text-h2 { font-size: var(--fs-h2); font-weight: var(--fw-bold); line-height: var(--lh-tight); letter-spacing: var(--ls-normal); }
+.text-h3 { font-size: var(--fs-h3); font-weight: var(--fw-semibold); line-height: var(--lh-snug); letter-spacing: var(--ls-normal); }
+.text-h4 { font-size: var(--fs-h4); font-weight: var(--fw-semibold); line-height: var(--lh-snug); letter-spacing: var(--ls-normal); }
+.text-body-lg { font-size: var(--fs-body-lg); font-weight: var(--fw-normal); line-height: var(--lh-normal); letter-spacing: var(--ls-normal); }
+.text-body { font-size: var(--fs-body); font-weight: var(--fw-normal); line-height: var(--lh-normal); letter-spacing: var(--ls-normal); }
+.text-body-sm { font-size: var(--fs-body-sm); font-weight: var(--fw-normal); line-height: var(--lh-normal); letter-spacing: var(--ls-normal); }
+.text-caption { font-size: var(--fs-caption); font-weight: var(--fw-normal); line-height: var(--lh-normal); letter-spacing: var(--ls-normal); }
+.text-overline { font-size: var(--fs-overline); font-weight: var(--fw-medium); line-height: var(--lh-normal); letter-spacing: var(--ls-wide); text-transform: uppercase; }
