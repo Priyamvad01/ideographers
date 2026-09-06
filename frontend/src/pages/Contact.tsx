@@ -256,25 +256,6 @@ const Contact: React.FC = () => {
         </Container>
       </Section>
 
-      {/* 4. Achievement Strip */}
-      <Section className="bg-gray-900 text-white py-16">
-        <Container>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-                {[
-                    { val: "500+", label: "Projects Delivered" },
-                    { val: "5+", label: "Service Domains" },
-                    { val: "100%", label: "Client Focused" },
-                    { val: "On-Time", label: "Project Delivery" }
-                ].map((stat, i) => (
-                    <div key={i} className="border-r border-gray-700 last:border-none">
-                        <div className="text-3xl font-bold mb-1">{stat.val}</div>
-                        <div className="text-sm text-gray-400">{stat.label}</div>
-                    </div>
-                ))}
-            </div>
-        </Container>
-      </Section>
-
       {/* 5. Premium CTA Banner */}
       <Section className="py-20">
         <Container>

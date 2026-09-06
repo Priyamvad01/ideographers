@@ -449,7 +449,7 @@ export const content = {
     businessHours: { title: 'Business Hours', description: 'Available for consultations during business hours.' },
     faqPreview: { title: 'FAQ Preview', description: 'Common questions answered.' },
     email: 'ideographers@gmail.com',
-    phone: '+1 (555) 123-4567',
+    phone: '+91-9771173983',
     address: 'Bihar, Jharkhand, UP & Chhattisgarh'
   }
 };
