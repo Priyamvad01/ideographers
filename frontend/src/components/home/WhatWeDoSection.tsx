@@ -4,7 +4,7 @@ import { content } from '../../content/company';
 
 const services = [
   'Civil & Design', 'Architecture', 'Landscaping', 
-  'Branding & Advertising', 'IT Services', 'Training & Internship'
+  'Branding & Advertising', 'IT Services'
 ];
 
 export const WhatWeDoSection: React.FC = () => (
