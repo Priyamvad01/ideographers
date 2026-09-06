@@ -20,11 +20,8 @@ export const aboutContent = {
     { title: "Excellence", description: "Demonstrating courage and readiness to handle complex challenges." }
   ],
   leadership: [
-    { name: "Late Er. Baidyanath Prasad", role: "Chairman", quote: "Professionals cannot retire at 60's, they retire once...." },
     { name: "Awanish Ranjan", role: "Business Head", quote: "When your desire comes in to your profession, you cannot define limitations." },
     { name: "Aftab Hussain", role: "Head (Graphics & Visuals)", quote: "" },
-    { name: "Deepak Singh", role: "Head (In-house Printing Operations)", quote: "" },
-    { name: "Ajay Kumar", role: "Project Coordinator", quote: "" },
     { name: "Priyamvad Ranjan", role: "IT Services", quote: "Technology is best when it creates practical solutions for real-world challenges." }
   ],
   journey: [
